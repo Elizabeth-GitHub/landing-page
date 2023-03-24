@@ -29,21 +29,25 @@ body {
 }
 
 .header .container {
-    height: 500px;
+    margin: 0;
+    height: 300px;
     justify-content: flex-start;
     padding: 60px 150px;
     align-items: center;
+    line-height: 0px;
 }
 
 .header img {
-    max-width: 25%;
+    height: 100%;
     margin-left: auto;
 }
 
 .header .left-container {
+    margin: 0;
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
+    justify-content: center;
+    margin-right: auto;
 }
 
 h1 {
@@ -64,15 +68,33 @@ button {
     padding: 10 3;
 }
 
-.boxes {
+.intro .container {
     background-color: white;
-    /*flex-direction: column;*/
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    height: 300px;
 }
 
 .box img {
-    width: 70px;
+    height: 150px;
     border: 4px #3882F6 solid;
     border-radius: 8px;
+}
+
+.facts {
+    display: flex;
+    height: 300px;
+    gap: 10px;
+    justify-content: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1F2937;
 }
