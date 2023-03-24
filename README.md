@@ -2,7 +2,3 @@ This is a simple landing page created as part of [TheOdinProject](https://www.th
 # Design
 The design for this project was provided by TheOdin Project and can be found in the [full-design.png](./full-design.png) and [colors-and-fonts.png](./colors-and-fonts.png) files in the repository.
 
-
-
-
-
