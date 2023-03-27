@@ -1,8 +1,5 @@
-body {
-    background-color: #1F2937;
-}
-
 .container {
+    background-color: #1F2937;
     display: flex;
     padding: 0 150px;
     margin: 0;
@@ -35,7 +32,6 @@ body {
     justify-content: flex-start;
     padding: 60px 150px;
     align-items: center;
-    line-height: 0px;
 }
 
 .header img {
@@ -52,9 +48,11 @@ body {
 }
 
 h1 {
+    margin-bottom: 0;
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8
+    color: #F9FAF8;
+    line-height: 0.5
 }
 
 .header p , .links, .footer .container {
