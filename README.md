@@ -8,6 +8,6 @@ The design for this project was provided by TheOdin Project and can be found in 
 - Photo by [Birger Strahl](https://unsplash.com/@bist31?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/YSUFN3QwUqg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 - Photo by [Anaïs Buan](https://unsplash.com/@anais_fait_de_lart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/mQ1P4zxSF1A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 - Icon by [kerismaker](https://www.iconfinder.com/kerismaker) on [Iconfinder](https://www.iconfinder.com/search?q=elephant&price=free)
-
+Logo design was based on 'Brown & Beige Aesthetic Minimalist Font Initials Logo' template by Aleksandra Chubar on Canva.com.\
 Content assistance provided by ChatGPT.
   
