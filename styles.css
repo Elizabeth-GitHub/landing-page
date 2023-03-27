@@ -1,25 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, 'sans serif', Arial;
+}
 .container {
     background-color: #1F2937;
     display: flex;
     padding: 0 150px;
     margin: 0;
-    color: #E5E7EB
+    color: #E5E7EB;
+    flex-wrap: wrap;
 }
 
 .navbar .container {
-    height: 76px;
+    /*height: 76px;*/
     justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    /*flex-wrap: wrap;*/
 }
 
 .navbar .logo {
-    max-height: 100%;
+    height: auto;
+    width: auto;
+    max-height: 76px;
+    max-width: 250px;
 }
 
 .navbar ul {
     display: flex;
     margin-left: auto;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 .navbar ul li {
@@ -28,18 +40,23 @@
 
 .header .container {
     margin: 0;
-    height: 340px;
+    /*height: 340px;*/
     justify-content: flex-start;
     padding: 60px 150px;
     align-items: center;
+    flex-wrap: wrap-reverse;
 }
 
 .header img {
-    height: 100%;
+    max-height: 340px;
     margin-left: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
 }
 
 .header .left-container {
+    max-width: 60%;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -66,7 +83,11 @@ button {
     border-radius: 8px;
     padding: 10 3;
     color: white;
-    font-weight: 800;;
+    font-weight: 800;
+}
+
+.intro .container, .quotes .container {
+    padding: 0 227px;
 }
 
 .intro .container {
@@ -74,11 +95,13 @@ button {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 360px;
+    margin-bottom: 70px;
+    /*height: 360px;*/
 }
 
 .box img {
-    height: 150px;
+    /*height: 150px;*/
+    max-height: 150px;
     border: 4px #3882F6 solid;
     border-radius: 8px;
 }
@@ -87,21 +110,23 @@ button {
     display: flex;
     gap: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 figcaption {
     text-align: center;
+    color: #1F2937;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 800;
     color: #1F2937;
 }
 
 .quotes .container {
     background-color: #E5E7EB;
-    height: 300px;
+    /*height: 300px;*/
     color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -113,6 +138,8 @@ h2 {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    /*max-height: 100%;*/
+    flex-wrap: wrap;
 }
 
 .quotes .author {
@@ -126,18 +153,20 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 246px;
+    /*height: 246px;*/
 }
 
 .sign-up .box{
     background-color: #3882F6;
-    height: 114px;
+    /*height: 114px;*/
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
     padding: 10px 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     gap: 10px;
-    line-height: 0px;
+    line-height: 1;
     align-items: center;
     
 }
@@ -157,7 +186,7 @@ h2 {
 }
 
 .footer .container {
-    height: 76px;
+    /*height: 76px;*/
     display: flex;
     justify-content: center;
     align-items:center;
